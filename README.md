@@ -21,7 +21,7 @@ Maven is the preferred way to referencing this library.
   <dependency>
     <groupId>com.microsoft</groupId>
     <artifactId>credential-secure-storage</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
   </dependency>
 ```
 
