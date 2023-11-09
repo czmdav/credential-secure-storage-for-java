@@ -9,8 +9,8 @@ import java.util.Objects;
  * Credential for user authentication.
  */
 public final class StoredCredential implements StoredSecret {
-    private static final int USERNAME_MAX_LENGTH = 511;
-    private static final int PASSWORD_MAX_LENGTH = 2047;
+    public static final int USERNAME_MAX_LENGTH = 511;
+    public static final int PASSWORD_MAX_LENGTH = 2047;
 
     private final String username;
     private final ClearableValue password;
