@@ -12,4 +12,6 @@ module com.microsoft.credentialstorage {
     exports com.microsoft.credentialstorage.implementation.posix.internal to com.sun.jna;
     exports com.microsoft.credentialstorage.implementation.posix.keyring to com.sun.jna;
     exports com.microsoft.credentialstorage.implementation.posix.libsecret to com.sun.jna;
+
+    exports com.microsoft.credentialstorage.implementation.windows to com.sun.jna;
 }
